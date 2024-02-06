@@ -1,11 +1,10 @@
 import Image from "next/image";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <div>
-      <h1>STRIKEFORCE</h1>
-      <h2>STRIKEFORCE</h2>
-      <p>STRIKEFORCE</p>  
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
