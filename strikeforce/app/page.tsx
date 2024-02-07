@@ -8,11 +8,14 @@ export default function Home() {
     <header>
       <Navbar />
     </header>
-    <main className="bg-zinc-200">
-      <div className="max-w-7xl mx-auto flex justify-center items-center h-screen top-container">
-        <div className="self-start">
-          <Image src="/assets/CopyofStrikeforcelogo.png" height={600} width={600} alt="logo"/>
+    <main className="bg-zinc-200 top-container">
+      <div className="max-w-7xl mx-auto flex flex-col items-center h-screen">
+        <div>
+          <div>
+            <Image priority src="/assets/CopyofStrikeforcelogo.png"  height={500} width={500} alt="logo"/>
+          </div>
         </div>
+          <h1 className="text-xl mt-12">strikeforce</h1>
       </div>
     </main>
     
