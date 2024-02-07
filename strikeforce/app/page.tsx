@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
     </header>
     <main>
-      <div className="flex justify-center items-center h-screen">
+      <div className="max-w-7xl mx-auto flex justify-center items-center h-screen">
         <h1 className="text-4xl text-center">Welcome to Strikeforce</h1>
       </div>
     </main>

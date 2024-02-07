@@ -12,14 +12,14 @@ const Navbar = () => {
 
   return (
     <>
-        <nav className='bg-black sticky top-0'>
+        <nav className='bg-black fixed top-0 w-full z-10'>
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
 
                     {/* Logo */}
                     <div className="flex items-center">
                         <div className="flex-shrink-0">
-                            <a href="/" className='text-white'><Image src="/assests/logo.png" height={50} width={50} alt="logo"/></a>
+                            <a href="/" className='text-white'><Image src="/assets/logo.png" height={50} width={50} alt="logo"/></a>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
                     
                     {/* Hamburger Icon */}
                     <div className='md:hidden flex items-center'>
-                        <button className='inline-flex items-center justidy-center p-2 rounded-md text-red-600 hover:text-red-600
+                        <button className='inline-flex items-center justify-center p-2 rounded-md text-red-600 hover:text-red-600
                          focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-600' 
                          onClick={toggleNavbar}
                          >
