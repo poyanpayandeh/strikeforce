@@ -8,7 +8,7 @@ export default function Home() {
     <header>
       <Navbar />
     </header>
-    <main className="bg-zinc-400">
+    <main className="bg-zinc-200">
       <div className="max-w-7xl mx-auto flex justify-center items-center h-screen top-container">
         <div className="self-start">
           <Image src="/assets/CopyofStrikeforcelogo.png" height={800} width={800} alt="logo"/>
@@ -17,7 +17,7 @@ export default function Home() {
     </main>
     
 
-    <footer className="bg-zinc-400">
+    <footer className="bg-zinc-200">
       <Footer />
     </footer>
     </>
