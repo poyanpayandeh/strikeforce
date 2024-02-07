@@ -11,7 +11,7 @@ export default function Home() {
     <main className="bg-zinc-200">
       <div className="max-w-7xl mx-auto flex justify-center items-center h-screen top-container">
         <div className="self-start">
-          <Image src="/assets/CopyofStrikeforcelogo.png" height={800} width={800} alt="logo"/>
+          <Image src="/assets/CopyofStrikeforcelogo.png" height={600} width={600} alt="logo"/>
         </div>
       </div>
     </main>
