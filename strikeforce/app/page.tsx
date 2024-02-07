@@ -8,8 +8,15 @@ export default function Home() {
     <header>
       <Navbar />
     </header>
+    <main>
+      <div className="flex justify-center items-center h-screen">
+        <h1 className="text-4xl text-center">Welcome to Strikeforce</h1>
+      </div>
+    </main>
+    
+
     <footer>
-      {/* <Footer /> */}
+      <Footer />
     </footer>
     </>
   );

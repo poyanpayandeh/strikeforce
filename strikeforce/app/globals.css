@@ -5,7 +5,15 @@
 /* styles/fonts.css */
 @font-face {
   font-family: 'serpentine';
-  src: url('/strikeforce/public/Serpentine\ BoldOblique.ttf') format('ttf'),
+  src: url('/strikeforce/public/Serpentine\ BoldOblique.ttf') format('truetype'),
 }
+
+* {
+  font-family: 'serpentine', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 
