@@ -26,10 +26,10 @@ const Navbar = () => {
                     {/* Nav Items */}
                     <div className="hidden md:block">
                         <div className='ml-4 flex items-center space-x-4'>
-                            <a href="/" className='text-red-600 hover:bg-red-500 hover:text-black rounded-lg p-2 text-sm'>Home</a>
-                            <a href="/" className='text-red-600 hover:bg-red-500 hover:text-black rounded-lg p-2 text-sm'>About</a>
-                            <a href="/" className='text-red-600 hover:bg-red-500 hover:text-black rounded-lg p-2 text-sm'>Timetable</a>
-                            <a href="/" className='text-red-600 hover:bg-red-500 hover:text-black rounded-lg p-2 text-sm'>Contact</a>
+                            <a href="/" className='text-red-600 hover:bg-red-500 hover:text-black rounded-lg p-2'>Home</a>
+                            <a href="/" className='text-red-600 hover:bg-red-500 hover:text-black rounded-lg p-2'>About</a>
+                            <a href="/" className='text-red-600 hover:bg-red-500 hover:text-black rounded-lg p-2'>Timetable</a>
+                            <a href="/" className='text-red-600 hover:bg-red-500 hover:text-black rounded-lg p-2'>Contact</a>
                         </div>
                     </div>
                     
