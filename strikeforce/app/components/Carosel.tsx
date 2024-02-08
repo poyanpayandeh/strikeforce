@@ -44,6 +44,10 @@ const Carosel = () => {
               width: 1024,
               slidesPerView: 4,
             },
+            1200: { // 1024px and above
+              width: 1024,
+              slidesPerView: 5,
+            },
             1280: { // 1280px and above
               width: 1280,
               slidesPerView: 5,
