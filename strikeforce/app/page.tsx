@@ -6,18 +6,18 @@ import Hero from "./components/Hero";
 export default function Home() {
   return (
     <>
-    <header>
+      <header>
       <Navbar />
-    </header>
+      </header>
 
-    <main className="bg-zinc-200 pt-[5rem]">
-      <Hero></Hero>  
-    </main>
+      <main className="bg-zinc-200 pt-[5rem]">
+      <Hero></Hero> 
+      </main>
     
 
-    <footer className="bg-zinc-200">
+      <footer className="bg-zinc-200">
       <Footer />
-    </footer>
+      </footer>
     </>
   );
 }
