@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
     </header>
 
-    <main className="bg-zinc-200 top-container">
+    <main className="bg-zinc-200 pt-[5rem]">
       <Hero></Hero>  
     </main>
     
