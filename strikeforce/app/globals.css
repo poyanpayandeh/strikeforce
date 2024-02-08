@@ -18,9 +18,6 @@
   position: relative;
 }
 
-.top-container {
-  padding-top: 5rem;
+.swiper-pagination-bullet-active {
+  background-color: brown !important;
 }
-
-
-

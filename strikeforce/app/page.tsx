@@ -1,28 +1,26 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
     <>
-    <header>
+      <header>
       <Navbar />
-    </header>
-    <main className="bg-zinc-200 top-container">
-      <div className="max-w-7xl mx-auto flex flex-col items-center h-screen">
-        <div>
-          <div>
-            <Image priority src="/assets/CopyofStrikeforcelogo.png"  height={500} width={500} alt="logo"/>
-          </div>
-        </div>
-          <h1 className="text-xl mt-12">strikeforce</h1>
-      </div>
-    </main>
+      </header>
+
+      <main className="bg-zinc-200 pt-[5rem]">
+      <Hero></Hero> 
+      {/* About */}
+      {/* Time Table */}
+      {/* Contact */}
+      </main>
     
 
-    <footer className="bg-zinc-200">
+      <footer className="bg-zinc-200">
       <Footer />
-    </footer>
+      </footer>
     </>
   );
 }
