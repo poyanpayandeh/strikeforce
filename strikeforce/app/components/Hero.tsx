@@ -14,7 +14,8 @@ const Hero = () => {
       <div className="max-w-[100%] lg:max-w-7xl mx-auto justify-self-center">
         <Carosel />
       </div>
-
+        
+      {/* Secondary Logo */}
       <div className="flex-shrink-0 mt-10 md:mt-15">
         <a href="/" className='text-white'><Image src="/assets/logo.png" height={50} width={50} alt="logo"/></a>
       </div> 

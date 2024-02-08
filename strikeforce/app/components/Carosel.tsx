@@ -58,7 +58,7 @@ const Carosel = () => {
             <SwiperSlide key={index} className="flex justify-center">
               <div className="max-w-[300px] sm:max-w-[200px] md:max-w-[250px] lg:max-w-[300px] xl:max-w-[350px] mx-auto rounded-xl shadow-md hover:shadow-lg"> {/* Added hover shadow */}
                 <div style={{ position: 'relative', width: '100%', height: '300px' }}>
-                  <Image src={image.src} layout="fill" objectFit="cover" alt={image.title} className="rounded-xl" sizes="(max-width: 320px) 100vw, (max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" preload="true" /> {/* Added preload attribute */}
+                  <Image src={image.src} layout="fill" objectFit="cover" alt={image.title} className="rounded-xl" sizes="(max-width: 320px) 100vw, (max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"/> {/* Added preload attribute */}
                 </div>
               </div>
             </SwiperSlide>

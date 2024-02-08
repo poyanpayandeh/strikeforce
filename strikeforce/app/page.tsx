@@ -12,6 +12,9 @@ export default function Home() {
 
       <main className="bg-zinc-200 pt-[5rem]">
       <Hero></Hero> 
+      {/* About */}
+      {/* Time Table */}
+      {/* Contact */}
       </main>
     
 
