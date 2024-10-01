@@ -10,14 +10,15 @@ export default function Home() {
       <Navbar />
       </header>
 
-      <main className="bg-zinc-200 pt-[5rem]">
-      <Hero></Hero> 
-      </main>
-    
+      <div className="bg-zinc-300">
+        <main className="pt-[5rem] pl-1 pr-1 md:pl-0 md:pr-0 mb-[50rem]">
+          <Hero></Hero> 
+        </main>
 
-      <footer className="bg-zinc-200">
-      <Footer />
-      </footer>
+        <footer className="">
+          <Footer />
+        </footer>
+      </div>
     </>
   );
 }
