@@ -25,6 +25,10 @@ const Hero = () => {
       <section>
         <About></About>
       </section>
+
+      {/* TimeTable  */}
+
+      {/* Contact */}
     </section>
   );
 };
