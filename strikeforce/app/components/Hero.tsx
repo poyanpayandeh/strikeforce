@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import Carosel from "./Carosel";
 import About from "./About";
+import Timetable from './Timetable';
 
 const Hero = () => {
   return (
@@ -18,15 +19,18 @@ const Hero = () => {
       
       {/* Secondary Logo */}
       <div className="flex-shrink-0 mt-10 mb-10 md:mt-15 md:mb-15">
-        <a href="/" className='text-white'><Image src="/assets/logo.png" height={125} width={125} alt="logo"/></a>
+        <Image src="/assets/logo.png" height={100} width={100} alt="logo"/>
       </div> 
 
       {/* About section */}
-      <section className=''>
+      <section className='mb-10'>
         <About></About>
       </section>
 
       {/* TimeTable  */}
+      <section className='w-full'>
+        <Timetable></Timetable>
+      </section>
 
       {/* Contact */}
     </section>
