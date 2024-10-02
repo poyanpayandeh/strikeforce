@@ -57,7 +57,7 @@ const Timetable = () => {
                 </TableRow>
                 <TableRow>
                     <TableCell className="text-center font-extrabold text-zinc-300 bg-red-800">6PM</TableCell>
-                    <TableCell className="text-center font-extrabold text-zinc-300 bg-black">Fighter Class</TableCell>
+                    <TableCell className="text-center font-extrabold text-zinc-300 bg-black">Fighters Class</TableCell>
                     <TableCell className="text-center font-extrabold text-zinc-300 bg-black">Fighters Sparring</TableCell>
                     <TableCell className="text-center font-extrabold text-zinc-300 bg-black">Fighters Class</TableCell>
                     <TableCell className="text-center font-extrabold text-zinc-300 bg-black">Fighters Sparring</TableCell>
