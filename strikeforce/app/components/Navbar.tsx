@@ -26,10 +26,10 @@ const Navbar = () => {
                     {/* Nav Items */}
                     <div className="hidden md:block">
                         <div className='ml-4 flex items-center space-x-4'>
-                            <a href="/" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>Home</a>
-                            <a href="/" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>About</a>
-                            <a href="/" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>Timetable</a>
-                            <a href="/" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>Contact</a>
+                            <a href="#home" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>Home</a>
+                            <a href="#about" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>About</a>
+                            <a href="#timetable" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>Timetable</a>
+                            <a href="#contact" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>Contact</a>
                         </div>
                     </div>
                     
@@ -71,9 +71,9 @@ const Navbar = () => {
             {isNav && (
                <div className='md:hidden'>
                 <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-end'>
-                    <a href="/" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>About</a>
-                    <a href="/" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>Timetable</a>
-                    <a href="/" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>Contact</a>
+                    <a href="#about" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>About</a>
+                    <a href="#timetable" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>Timetable</a>
+                    <a href="#contact" className='text-red-600 hover:bg-red-600 hover:text-white rounded-lg p-2'>Contact</a>
                 </div>
                </div> 
             )}

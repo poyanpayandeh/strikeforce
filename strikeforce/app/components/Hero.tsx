@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="h-screen flex flex-col justify-start items-center max-w-7xl mx-auto">
       {/* Main Logo */}
-      <div className="mb-10 md:mb-15">
+      <div className="mb-10 md:mb-15" id='home'>
         <Image src="/assets/CopyofStrikeforcelogo.png" height={500} width={500} alt="logo" />
       </div>
 
@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
       
       {/* Secondary Logo */}
-      <div className="flex-shrink-0 mt-10 mb-10 md:mt-15 md:mb-15">
+      <div className="flex-shrink-0 mt-10 mb-10 md:mt-15 md:mb-15" id='about'>
         <Image src="/assets/logo.png" height={100} width={100} alt="logo"/>
       </div> 
 
@@ -28,7 +28,7 @@ const Hero = () => {
       </section>
 
       {/* TimeTable  */}
-      <section className='w-full'>
+      <section className='w-full' id='timetable'>
         <Timetable></Timetable>
       </section>
 

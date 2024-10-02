@@ -24,6 +24,7 @@ const Timetable = () => {
 
         <div className='mt-5 md:mt-8'>
         <Table>
+        <TableCaption><p className='font-bold text-black text-xl'>Membership: $30p/w, No sign up fees!</p></TableCaption>
             <TableHeader>
                 <TableRow>
                     <TableHead className="text-center font-extrabold text-zinc-300 bg-red-800"></TableHead>
